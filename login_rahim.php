@@ -12,11 +12,11 @@
         <form action = "auth.php" method = "POST">  
             <p>  
                 <label> UserName: </label>  
-                <input type = "text" name  = "user" />  
+                <input type = "text" name  = "user" requied/>  
             </p>  
             <p>  
                 <label> Password: </label>  
-                <input type = "password" name  = "pass" />  
+                <input type = "password" name  = "pass" reqired/>  
             </p>  
             <p>     
                 <input type =  "submit" value = "Login" />  
