@@ -14,11 +14,11 @@
         <form action = "auth.php" method = "POST">  
             <p>  
                 <label> UserName: </label>  
-                <input type = "text" name  = "user" required/>  
+                <input type = "text" name  = "user_id" required/>  
             </p>  
             <p>  
                 <label> Password: </label>  
-                <input type = "password" name  = "pass" required/>  
+                <input type = "password" name  = "passward" required/>  
             </p>  
             <p>     
                 <input type =  "submit" value = "Login" />  
