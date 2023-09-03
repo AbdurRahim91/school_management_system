@@ -1,3 +1,6 @@
+<?php 
+// Turn off error reporting
+error_reporting(0); session_start(); $error=$_SESSION['error_msg'];?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,21 +13,26 @@
 </head>
 <body>
 <div id = "login">  
-        <h1>Login</h1>  
+        <h1 class='text-center'>Login</h1>  
         <form action = "auth.php" method = "POST">  
             <p>  
-                <label> UserName: </label>  
-                <input type = "text" name  = "user_id" required/>  
+                <label> User ID: </label> <br> 
+                <input type = "text" name  = "user_id" placeholder="Enter Your ID" required/>  
             </p>  
             <p>  
-                <label> Password: </label>  
-                <input type = "password" name  = "passward" required/>  
+                <label> Password: </label>  <br> 
+                <input type = "password" name  = "password" placeholder="Enter Your Password" required/>  
             </p>  
+            <p style = "font-size:11px; color:#cc0000; margin-top:10px">
+                    <?php echo $error; ?>
+            </p> 
             <p>     
-                <input type =  "submit" value = "Login" />  
-            </p>  
+                <input type = "submit" name="submit" value = "Login" />  
+            </p> 
+            
         </form>  
     </div> 
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
 </body>
 </html>
