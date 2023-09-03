@@ -1,4 +1,6 @@
-<p align="center"><h1>School Management System</h1>h1 </p>
+<p align="center">
+  <strong> School Management System </strong>
+</p>
 
 School Management System Modules:
 Sl   Module Neme      Priority      Progressing Status
