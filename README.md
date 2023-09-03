@@ -1,4 +1,5 @@
-# school_management_system
+<p align="center">School Management System </p>
+
 School Management System Modules:
 Sl   Module Neme      Priority      Progressing Status
 ---  -----------      ---------     -------------------
