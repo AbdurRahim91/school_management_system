@@ -43,7 +43,7 @@
         }
 
         /*--------- 
-        Method for prevent access to signin page when logged in
+        Method for prevent access when logged in
         ---------*/
         public static function chkSession(){
             if(self::get('login') == true){

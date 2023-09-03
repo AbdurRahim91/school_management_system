@@ -1,7 +1,8 @@
 <?php
 	/*--- Page header and User class ---*/
 	include'Include/header.php'; 
-	include'Library/User.php'; 
+	include'Library/User.php';
+	Session::chkSession(); 
 
 	/*--- Object creation and data passed to User class ---*/
 	$user = new User;

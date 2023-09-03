@@ -108,8 +108,8 @@
 				Session::init();
 				Session::set("login",true);
 				Session::set("id",$result->id);
-				Session::set("name",$result->name);
-				Session::set("username",$result->username);
+				Session::set("firstName",$result->firstName);
+				Session::set("lastName",$result->lastName);
 				Session::set("loginmsg","<div class='alert alert-success'><strong>Success! </strong>You are Logged In!</div>");
 				header("location:index_munaim.php");
 			} else{
