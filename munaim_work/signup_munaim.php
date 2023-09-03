@@ -8,13 +8,13 @@
 			<div class="panel-body">
 				<form style="max-width:600px; margin:0 auto;" action="" method="post">
 					<div class="form-group">
-						<label for="name">Your Name</label>
-						<input type="text" id="name" name="name" class="form-control"/>
+						<label for="firstName">First Name</label>
+						<input type="text" id="firstName" name="firstName" class="form-control"/>
 					</div>
 					
 					<div class="form-group">
-						<label for="username">Username</label>
-						<input type="text" id="username" name="username" class="form-control"/>
+						<label for="lastName">Last Name</label>
+						<input type="text" id="lastName" name="lastName" class="form-control"/>
 					</div>
 					
 					<div class="form-group">
@@ -26,7 +26,7 @@
 						<label for="password">Password</label>
 						<input type="password" id="password" name="password" class="form-control"/>
 					</div>
-					<button type="submit" name="register" class="btn btn-success">Submit</button>
+					<button type="submit" name="signup" class="btn btn-success">Submit</button>
 				</form>
 			</div>
 		</div>
