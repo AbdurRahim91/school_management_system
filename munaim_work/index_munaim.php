@@ -1,4 +1,5 @@
 <?php include'Include/header.php'; ?>
+<?php include'Library/Database.php'; ?>
 	
 	<div class="panel panel-default">
 		<div class="panel-body text-center">
