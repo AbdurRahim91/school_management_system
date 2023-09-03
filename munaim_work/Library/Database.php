@@ -11,7 +11,7 @@
 					$link = new PDO("mysql:host=".$this->dbhost."; dbname=".$this->dbname,$this->dbuser,$this->dbpass);
 					$this->pdo = $link;
 					if($this->pdo==true){
-						echo"Connection Successful";
+						return true;
 					}
 				} catch(PDOException $e){
 					die("Failed to connect with database...".$e->getMessage());

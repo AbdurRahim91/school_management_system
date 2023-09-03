@@ -34,7 +34,7 @@
         }
 
         /*--------- 
-        Method for prevent access to signin page when already logged in
+        Method for prevent access without login
         ---------*/
         public static function chkLogin(){
             if(self::get('login') == false){
@@ -43,7 +43,7 @@
         }
 
         /*--------- 
-        Method for prevent access without login
+        Method for prevent access to signin page when logged in
         ---------*/
         public static function chkSession(){
             if(self::get('login') == true){
