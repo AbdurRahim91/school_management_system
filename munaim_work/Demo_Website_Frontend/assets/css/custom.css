@@ -1,0 +1,34 @@
+.bi-lg{
+    font-size: 20px;
+  }
+  
+  .bi-ld{
+      font-size: 40px;
+  }
+  
+  .btn-xs{
+    padding: 10px !important;
+    font-size: 10px;
+  }
+  
+  .custom-checkbox{
+    display: inline-flex;
+  }
+  
+  .btn-xxs{
+    padding: 7px 6px !important;
+    font-size: 8px;
+  }
+  
+  .result_marks{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-large{
+    width: 80% !important;
+  }
+  
+  .mw-1200px{
+    max-width: 1200px!important
+  }
