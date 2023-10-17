@@ -1,0 +1,417 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+
+   
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+    .primary-img{}
+    .header-overlay{}
+    .header-right-top p{}
+    .header-right-top p:first-child{
+        display: none
+    }
+    .header-right-top{}
+    .header-right-search form{
+        top: 15px;
+        width: 85%
+    }
+    .mainmenu ul li a{
+        padding: 10px 8px;
+        text-transform: capitalize;
+        font-size: 13px
+    }
+    .header-notice-left h4{
+        left: 20px;
+        top: 5px;
+        font-size: 15px
+    }
+    section.mainmenu-area{}
+    .mainmenu{}
+    .bleezy-responsive-menu{}
+    .header-notice{}
+    .header-right-search button{}
+    .site-logo{}
+    .big-main-caption h2{}
+    .big-main-caption h4{}
+    .big-main-slide{}
+    .about-image img{
+        left: 0;
+        top: 0;
+        border-radius: 0
+    }
+    .about-image{
+        border: 0;
+        border-radius: 0;
+        height: 270px;
+        margin-bottom: 30px
+    }
+    .about-text h3{}
+    .admission-quote{
+        width: 100%
+    }
+    .admission-quote h2{}
+    .big-choose-scroll{}
+    .choose-icon{}
+    .choose-text > h4{}
+    .margin-top{
+        margin-top: 50px
+    }
+    .theme-heading h2{}
+    .single-comment{
+        padding: 20px;
+        width: 100%
+    }
+    .comment-info{}
+    .comment-stu-txt{}
+    .comment-img{}
+    .single-comment::before{}
+    .single-comment::after{
+        top: 79%
+    }
+    .single-footer{
+        text-align: center;
+        margin: 50px 0;
+        padding: 0 20%;
+    }
+    .footer-social-icon > h3{
+        margin-left: 0;
+    }
+    .footer-logo > a > img{
+        margin: 0
+    }
+    .copyright-left{}
+    .copyright-right{}
+    .breadcromb-area{}
+    .breadcromb-left{}
+    .breadcromb-right ul {}
+    .breadcromb-left h2{}
+    ul.pagination li{}
+    .theme-table{}
+    .teacher-list-table td{}
+    .primary-img img{
+        margin: 15px auto;
+        width: 70%
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    
+    .header-overlay{
+        display: none
+    }
+    .primary-img{
+        display: block;
+        margin-top:0;
+        padding:0
+    }
+        .primary-img img{
+            padding-top:0 !important
+        }
+        .header-right-top p {
+            color: #333;
+            margin: 0 20px
+        }
+    .header-right-top p:first-child{
+        display: none
+    }
+    .header-right-top{
+        text-align: center
+    }
+    .header-right-search form{
+       top: 30px;
+        width: 75%;
+        z-index: 999999;
+    }
+    section.mainmenu-area{
+        min-height: 50px;
+        margin-top: -15px
+    }
+    .mainmenu{
+        display: none
+    }
+    .bleezy-responsive-menu{
+        display: block
+    }
+    .header-notice{
+        display: none
+    }
+    .header-right-search button{
+        width: 20%;
+        background:#fff;
+        color: #333
+    }
+    .site-logo{
+        margin: 20px 0 10px
+    }
+    .big-main-caption h2{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .big-main-caption h4{
+        font-size: 20px
+    }
+    .big-main-slide{
+        height: 320px
+    }
+    .about-image img{
+        top: 0;
+        left: 0;
+        border-radius: 0
+    }
+    .about-image{
+        height: 180px;
+        border-radius: 0;
+        border: 0px;
+        margin-bottom: 30px
+    }
+    .about-text h3{
+        font-size: 18px;
+        line-height: 23px
+    }
+    .admission-quote{
+        width: 100%
+    }
+    .admission-quote h2{
+        font-size: 30px
+    }
+    .big-choose-scroll{
+        padding: 20px 50px 20px 20px
+    }
+    .choose-icon{
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 18px
+    }
+    .choose-text > h4{
+        margin-bottom: 5px
+    }
+    .margin-top{
+        margin-top: 50px
+    }
+    .theme-heading h2{
+        font-size: 20px
+    }
+    .single-comment{
+        width: 100%;
+        padding: 20px
+    }
+    .comment-info{
+        width: 100%
+    }
+    .comment-img{
+        width: 60px;
+        height: 60px
+    }
+    .comment-stu-txt{
+        margin-top: 4px
+    }
+    .single-comment::before{
+        top: 91%
+    }
+    .single-comment::after{
+        top: 85%
+    }
+    .single-footer{
+        text-align: center;
+        margin: 50px 0
+    }
+    .footer-social-icon > h3{
+        margin-left: 0
+    }
+    .footer-logo > a > img{
+        margin-left: 0
+    }
+    .copyright-left{
+        text-align: center
+    }
+    .copyright-right{
+        text-align: center;
+        margin-top: 10px
+    }
+    .breadcromb-area{
+        padding: 40px 0
+    }
+    .breadcromb-left{
+        text-align: center
+    }
+    .breadcromb-right ul {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .breadcromb-left h2{
+        font-size: 20px
+    }
+    ul.pagination li{
+        margin: 0
+    }
+    .theme-table{
+        overflow: auto
+    }
+    .teacher-list-table td{
+        text-align: center
+    }
+    .site-logo img{
+        width:100%
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+
+    .header-overlay{
+        display: none
+    }
+    .primary-img{
+        display: none
+    }
+    .header-right-top p{
+        color: #333;
+        margin: 0 20px
+    }
+    .header-right-top p:first-child{
+        display: none
+    }
+    .header-right-top{
+        text-align: center
+    }
+    .header-right-search form{
+       top: 30px;
+        width: 75%;
+        z-index: 999999;
+    }
+    section.mainmenu-area{
+        min-height: 50px;
+        margin-top: -15px
+    }
+    .mainmenu{
+        display: none
+    }
+    .bleezy-responsive-menu{
+        display: block
+    }
+    .header-notice{
+        display: none
+    }
+    .header-right-search button{
+        width: 20%;
+        background:#fff;
+        color: #333
+    }
+    .site-logo{
+        margin: 20px 0 10px
+    }
+    .big-main-caption h2{
+        font-size: 20px;
+        line-height: 30px
+    }
+    .big-main-caption h4{
+        font-size: 20px
+    }
+    .big-main-slide{
+        height: 320px
+    }
+    .about-image img{
+        top: 0;
+        left: 0;
+        border-radius: 0
+    }
+    .about-image{
+        height: 260px;
+        border-radius: 0;
+        border: 0px;
+        margin-bottom: 30px
+    }
+    .about-text h3{
+        font-size: 18px;
+        line-height: 23px
+    }
+    .admission-quote{
+        width: 100%
+    }
+    .admission-quote h2{
+        font-size: 30px
+    }
+    .big-choose-scroll{
+        padding: 20px 50px 20px 20px
+    }
+    .choose-icon{
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 18px
+    }
+    .choose-text > h4{
+        margin-bottom: 5px
+    }
+    .margin-top{
+        margin-top: 50px
+    }
+    .theme-heading h2{
+        font-size: 20px
+    }
+    .single-comment{
+        width: 100%;
+        padding: 20px
+    }
+    .comment-info{
+        width: 100%
+    }
+    .comment-img{
+        width: 60px;
+        height: 60px
+    }
+    .comment-stu-txt{
+        margin-top: 4px
+    }
+    .single-comment::before{
+        top: 91%
+    }
+    .single-comment::after{
+        top: 81%
+    }
+    .single-footer{
+        text-align: center;
+        margin: 50px 0
+    }
+    .footer-social-icon > h3{
+        margin-left: 0
+    }
+    .footer-logo > a > img{
+        margin-left: 0
+    }
+    .copyright-left{
+        text-align: center
+    }
+    .copyright-right{
+        text-align: center;
+        margin-top: 10px
+    }
+    .breadcromb-area{
+        padding: 40px 0
+    }
+    .breadcromb-left{
+        text-align: center
+    }
+    .breadcromb-right ul {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .breadcromb-left h2{
+        font-size: 20px
+    }
+    ul.pagination li{
+        margin: 0
+    }
+    .theme-table{
+        overflow: auto
+    }
+    .teacher-list-table td{
+        text-align: center
+    }
+    
+
+}
