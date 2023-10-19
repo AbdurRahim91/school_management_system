@@ -1,0 +1,15 @@
+﻿$(document).ready(function () {
+
+    var dd = $('.vticker').easyTicker({
+        direction: 'up',
+        easing: 'easeInOutBack',
+        speed: 'slow',
+        interval: 1400,
+        height: 'auto',
+        visible: 4,
+        mousePause: 1,
+    }).data('easyTicker');
+
+
+
+});

@@ -1,0 +1,108 @@
+
+
+(function ($) {
+	"use strict";
+    
+    jQuery(document).ready(function($){
+        
+        
+        /* 
+        =================================================================
+        01 - Main Slider
+        =================================================================	
+        */
+       $(".big-slide").owlCarousel({
+            animateOut: 'fadeOut',
+            animateIn: 'fadeIn',
+            items: 1,
+            nav: true,
+            dots: false,
+            autoplay: true,
+            loop: true,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+            mouseDrag: false,
+            touchDrag: false
+        });
+        
+        $(".big-slide").on("translate.owl.carousel", function(){
+            $(".big-main-slide h2, .big-main-slide p").removeClass("animated fadeInUp").css("opacity", "0");
+            $(".big-main-slide .theme-btn").removeClass("animated fadeInDown").css("opacity", "0");
+        });
+        $(".big-slide").on("translated.owl.carousel", function(){
+            $(".big-main-slide h2, .big-main-slide p").addClass("animated fadeInUp").css("opacity", "1");
+            $(".big-main-slide .theme-btn").addClass("animated fadeInDown").css("opacity", "1");
+        });
+        
+        $(".big-slide").on("translate.owl.carousel", function(){
+            $(".big-main-slide h4").removeClass("animated slideInDown").css("opacity", "0");
+        });
+        $(".big-slide").on("translated.owl.carousel", function(){
+            $(".big-main-slide h4").addClass("animated slideInDown").css("opacity", "1");
+        });
+        
+        
+        $(".big-choose-scroll").perfectScrollbar();
+        
+        
+        
+         /* 
+        =================================================================
+        02 - Comment Slider
+        =================================================================	
+        */
+        
+        $(".comment-slider").owlCarousel({
+            autoplay:true,
+            loop:true,
+            margin:20,
+            touchDrag:false,
+            mouseDrag:false,
+            items:1,
+            nav: false,
+            dots: true,
+            autoplayTimeout: 6000,
+            autoplaySpeed: 1200,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        });
+
+        
+        /* 
+        =================================================================
+        03 - Marquee Slider
+        =================================================================	
+        */
+        
+        $(function(){
+          $('.marquee').marquee({
+         allowCss3Support: true,
+         css3easing: 'linear',
+         easing: 'linear',
+          delayBeforeStart: 1000,
+          direction: 'left',
+          duplicated: false,
+          duration: 30000,
+          gap: 20,
+          pauseOnCycle: false,
+          startVisible: true,
+            pauseOnHover: true
+
+          });
+        });
+        
+        
+        /* 
+        =================================================================
+        08 - Responsive Menu
+        =================================================================	
+        */
+        $("ul#bleezy_navigation").slicknav({
+            prependTo: ".bleezy-responsive-menu"
+        });
+        
+    
+        
+        
+    });
+    
+    
+}(jQuery));	
