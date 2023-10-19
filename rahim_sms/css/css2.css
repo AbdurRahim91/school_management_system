@@ -1,0 +1,132 @@
+<style>
+
+nav{
+	height:50px;
+}
+ul
+{
+padding: 1px;
+list-style: none;
+background:black;
+margin-top: -8px;
+}
+ul li
+{
+display: inline-block;
+position: relative;
+line-height: 21px;
+width: 125px;
+text-align: center;
+}
+ul li a
+{
+display: inline-block;
+padding: 17px 35px ;
+color: white;
+text-decoration :none;
+font-size: 17px;
+}
+ul li a:hover
+{
+
+color:orange;
+background-color: white;
+font-size:12px;
+padding-top: 13px;
+padding-bottom: 13px;
+
+}
+
+body{
+	background-size:  cover;
+	background-repeat:no-repeat;
+	background-image: url(2.png);
+    background-attachment:fixed;}
+
+}
+
+
+
+input {
+height:35px;
+position:relative;
+margin-top:-20em;
+}
+
+.search{
+	           
+	           margin-top: -60px;
+	           
+	           margin-left:  1000px;}
+
+	           .text{
+	           	height:30px;
+	           }
+
+.button {background-color:#ffa500;
+	     border-radius:0 4px 4px 0;
+		 color:white;
+		 border-style:none;
+		 width: 70px;
+		 height:36px;
+		position: absolute;  
+		}
+		
+.border2 {background-color:#ffa500;
+	     border-radius:10px;		 
+		 color:white;
+		 margin-right:16%;
+	     border-style:none;
+
+		 }
+#h{
+	width: 80px;
+	height: 38px;
+	margin-left: 45px;
+	margin-top: 14px;
+	border-radius: 15px;
+	background-color: orange;
+	border: none;
+	color: rgb(99,96,96);
+}
+#h:hover {
+	cursor: pointer;
+	text-decoration:underline;
+	color: black;
+}
+#h:focus{
+	outline: none;
+}
+
+.border3{
+	border:none;
+  border-bottom:2px solid #ffa500;
+  width:300px;
+  height: 39px;
+  margin: 20px;
+  outline: none;
+  margin-left: 45px;
+  font-size: 20px;
+  background-color:rgba(0,0,0,0);
+  color: white;
+}
+.new{
+    background-color:rgba(0,0,0,.8);
+    width: 30%; height: 336px;
+    margin: auto;
+    margin-top: 115px;
+    
+    }	
+
+.log {
+	color:white;
+	text-align: center;
+
+
+}
+
+	nav{background-color:black;
+        height:40px;
+        background-attachment:fixed;}
+
+</style>

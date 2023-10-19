@@ -1,0 +1,120 @@
+<style>
+body{
+ margin: 20px;
+ border: groove black 2px;
+ height: 100%;
+}
+ul {
+  list-style-type: none;
+  padding-left: 100px;
+  overflow: hidden;
+  background-color: #ccc1bf;
+  margin-left: 150px;
+  width: 1100px;
+}
+
+li {
+  float: left;
+  margin-right: 140px;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:  #f9ecf2;
+
+}
+.home{
+ width: 72%;
+ height: 50%;
+ padding: 20px;
+}
+.home:hover{
+ background-color:  #f9ecf2;
+}
+h1{
+ color: 	#7e2b3d;
+}
+.title{
+ color: 	#7e2b3d;
+ top: 25px;
+ left: 168px;
+ position: absolute;
+}
+footer{
+ background: #ccc1bf;
+}
+a{
+ text-decoration: none;
+
+}
+ul li ul.dropdown
+{
+  background: #ccc1bf;
+  display: none;
+  position: absolute;
+  padding-left:0px;
+  margin-left: 0px;
+  width: 200px;
+}
+
+
+ul li:hover ul.dropdown
+{
+  display: inline-block;
+}
+
+ul li ul.dropdown li
+{
+  display: inline-block;
+}
+
+aside{
+  float: right;
+  margin-right: 50px;
+  vertical-align: center;
+  text-align: center;
+}
+
+aside:hover{
+	background-color:  #f9ecf2;
+}
+table {
+	border: solid black;
+
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #ccc1bf}
+
+th {
+  background-color: #7e2b3d;
+  color: white;
+}
+.info{
+	font-size: 20px;
+}
+.label{
+  font-weight: bold;
+  color: #171E5E;
+}
+.vl {
+  border-left: 1px outset grey;
+  height: 1190px;
+  position: absolute;
+  left: 74%;
+
+}  
+
+</style>

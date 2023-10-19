@@ -108,7 +108,7 @@
                 <div class="col-sm-6">                        
                     <div class="copyright-right">                            
                         <p>Built with <i class="fa fa-heart"></i> from<span>
-                            <a href="#" target="_blank">BD IT Solution</a></span>
+                            <a href="https://www.artsoftit.com/" target="_blank">ART-SoftIT</a></span>
                         </p>                        
                     </div>                    
                 </div>
