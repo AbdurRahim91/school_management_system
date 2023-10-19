@@ -1,0 +1,57 @@
+/*======== Notice Board =====*/
+.manaquee {
+    padding: 10px;
+    color: white;
+  }
+  
+  .notice-part a {
+    color: #222222;
+    text-decoration: none;
+  }
+  
+  .d-left {
+    float: left;
+    background-color: #660000;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .N-block {
+    padding: 10px;
+    color: #660000;
+    margin-top: -16px;
+    background-color: wheat;
+    height: 40px;
+  }
+  
+  .notice-board h3 {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .notice-scroll{
+      border: 1px solid rgba(0,0,0,.125);
+      padding: 10px 0;
+      background-color: #f9f9f9;
+  }
+  
+  .bg-notice {
+    border-radius: 15px;
+    font-size: 15px;
+    height: 410px;
+    font-weight: bold;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px dotted #222;
+    color: #fff;
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+  }
