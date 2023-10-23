@@ -1,10 +1,5 @@
-<!-- Header Section Start -->
-<?php require('includes/header.php') ?>
-<!-- Header Section End -->
-
-
 <!-- Hero Section Start -->
-    <section class="hero-section">
+<section class="hero-section">
         <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-md-8">
@@ -35,60 +30,31 @@
                         </a>
                     </div>
                 </div>
+
                 <div class="col-md-4">
                     <div class="notice-board rounded overflow-hidden border">
                         <h3>Notice Board</h3>
-                        <div class="notice-scroll" data-interval="1000" data-pause="true">
-                            <marquee class="bg-notice" onmouseover="this.stop();" onmouseout="this.start();"direction="up" loop="true" width="100%">
-                                    <div class="N-block"> 
-										<span class="d-left">Aug<br>29</span>
-										<a href="notice.html" target="_blank">
-										NOTICE-1: Notice will be go here...  
-										</a>
-									</div>
-                                    <!-- <div class="card">
-                                        <div class="card-body">
-                                            <span class="d-left">Aug<br>29</span>
-                                            <a href="notice.html" target="_blank">
-                                            NOTICE-1: Notice will be go here...  
-                                            </a>
-                                        </div>
-                                    </div> -->
-                                                            
-                                     <hr>
-												
-                                    <div class="N-block"> 
-										<span class="d-left">Aug<br>27</span>
-										<a href="notice.html" target="_blank">
-                                        NOTICE-2: Notice will be go here...                                     
-										</a>
-									</div>
-												<hr>
-												
-                                    <div class="N-block"> 
-										<span class="d-left">Aug<br>28</span>
-										<a href="notice.html">
-                                        NOTICE-3: Notice will be go here...  
-										</a>
-									</div>
-												<hr>
-												
-                                    <div class="N-block"> 
-										<span class="d-left">Aug<br>2</span>
-										<a href="notice.html">
-                                        NOTICE-4: Notice will be go here...  
-										</a>
-                                    </div>
-											<hr>
-											
-                                    <div class="N-block"> 
-										<span class="d-left">Aug<br>6</span>
-										<a href="#">
-										NOTICE-5: Notice will be go here...  
-										</a>
-									</div>
-                            </marquee>
-                        </div>
+                        <ul class="list">
+                            <a href="#">
+                                <li class="list-item">Notice will be go here</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="list-item">Notice will be go here</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="list-item">Notice will be go here</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="list-item">Notice will be go here</li>
+                            </a>
+
+                            <a href="#">
+                                <li class="list-item">Notice will be go here</li>
+                            </a>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -229,8 +195,3 @@
         </div>
     </section>
 <!-- About Section End -->
-
-
-<!-- Footer Section Start -->
-<?php require('includes/footer.php') ?>
-<!-- Footer Section End -->

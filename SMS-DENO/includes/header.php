@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/css/notice.css">
 </head>
 
 <body data-bs-theme="dark">
@@ -48,13 +47,13 @@
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav mx-auto text-center">
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="index.php">Home</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" id="page_link" href="about.php">About</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">Courses</a>
+                            <a class="nav-link" href="course.php">Courses</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="admission.php">Admissions</a>

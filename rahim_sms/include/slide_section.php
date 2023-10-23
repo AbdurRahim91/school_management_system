@@ -1,9 +1,5 @@
 <section class="big-slider-area">
     <div class="big-slide owl-carousel owl-theme owl-loaded owl-text-select-on">
-                
-                
-                
-
     <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-6076px, 0px, 0px); transition: all 0s ease 0s; width: 10633px;"><div class="owl-item cloned" style="width: 1519px; margin-right: 0px;"><div class="big-main-slide slide-item-2">
                     <div class="big-main-caption">
                         <div class="big-caption-cell">
