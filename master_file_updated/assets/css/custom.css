@@ -1,0 +1,341 @@
+/*-------------------- Basic Styles --------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+ol,ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-size: 20px;
+}
+
+.bi-lg{
+    font-size: 20px;
+  }
+  
+  .bi-ld{
+      font-size: 40px;
+  }
+  
+  .btn-xs{
+    padding: 10px !important;
+    font-size: 10px;
+  }
+  
+  .custom-checkbox{
+    display: inline-flex;
+  }
+  
+  .btn-xxs{
+    padding: 7px 6px !important;
+    font-size: 8px;
+  }
+  
+  .result_marks{
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .modal-large{
+    width: 80% !important;
+  }
+  
+  .mw-1200px{
+    max-width: 1200px!important
+  }
+
+
+/*-------------------- Header Section --------------------------*/
+.header-wrapper {
+  background: linear-gradient(to right, #637cc7, #0b1137);
+}
+
+.logo-wrapper{
+  width: 100px;
+  height: 100px;
+}
+
+nav{
+  background: #264d85 !important;
+}
+
+.inst-title-wrapper {
+  flex-direction: column;
+}
+
+.ins-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+address {
+  margin-bottom: 1rem;
+  font-style: normal;
+  line-height: inherit;
+  color: #fff;
+  font-weight: 600;
+}
+
+.fixed-top{
+  transition: 1s;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff !important;
+}
+
+/* -----------------------nav section---------------------------- */
+.mainmenu ul {
+  margin-top: 5px;
+  text-align: center;
+}
+.mainmenu ul li {
+  display: inline-block;
+  position: relative
+}
+.mainmenu ul li a {
+  display: block;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.mainmenu ul li ul{
+  position:absolute;
+  top: 100%;
+  width: 200px;
+  background: #264d85;
+  transform: scaleY(0);
+  visibility: visible;
+  transform-origin: top;
+  transition: all 0.5s ease 0s;
+  z-index: 99999999999999;
+  text-align: left;
+  border-top: 2px solid #264d85
+}
+.mainmenu ul li:hover ul{
+  visibility: visible;
+  transform: scaleY(1)
+}
+.mainmenu ul li ul li{
+  display: block;
+  border-bottom: 1px solid #333333;
+}
+.mainmenu ul li ul li:last-child{
+  border-bottom: 0px solid #333;
+}
+.mainmenu ul li ul li a{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px
+}
+.mainmenu ul li ul li a:hover{
+  background: #079bfd
+}
+/*-------------------- Hero Section --------------------------*/
+.hero-section {
+  padding-top: 100px;
+}
+.hero-section h1 {
+  margin-bottom: 30px;
+}
+
+.notice-board {
+  background: #eee;
+}
+
+.notice-board h3{
+  background: #ccc;
+  padding: 10px 5px;
+}
+
+.notice-board ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.notice-board ul > a > li{
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border: 1px solid #dedede;
+  text-align: left;
+  background: #fff;
+  transition: .5s;
+}
+
+.notice-board ul > a > li:hover{
+  transform: translateX(5px);
+}
+
+.notice-board p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 0px;
+  padding: 5px 10px;
+}
+
+.notice-board a {
+  color: #000;
+  text-decoration: underline;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/*-------------------- History Section --------------------------*/
+.feature-card {
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.prcplimg {
+  max-width: 100%;
+  height: auto;
+}
+
+.rs-history.sec-spacer {
+  padding: 100px 0px;
+}
+
+.sec-spacer .col-lg-4 a img{
+  transition: 1.5s transform;
+}
+
+.sec-spacer .col-lg-4 a:hover img{
+  transform: scale(1.05);
+}
+
+
+/*-------------------- Bongobondhu Conrner Section --------------------------*/
+.bongobandhu-corner .container{
+  padding: 100px 0;
+}
+
+.content-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  transition: 1.5s transform;
+}
+
+.content-image:hover, .about-school:hover{
+  transform: translateY(-10px);
+}
+
+.content-image p {
+  text-align: center;
+  padding: 0 26px;
+  font-size: 1.5rem;
+  margin-top: 6px;
+  padding-top: 6px;
+  color: #000;
+  border-radius: 7px;
+}
+
+
+/*-------------------- Institute Information Section --------------------------*/
+.institute-info {
+  background: #f8f8f8;
+  padding: 100px 0px;
+}
+
+.institute-info p {
+  line-height: 2;
+}
+
+
+/*-------------------- About Section --------------------------*/
+.about-institute{
+  background: #f8f8f8;
+  padding: 100px 0px;
+}
+
+.about-school {
+  padding: 20px 10px;
+  background: #fff;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  transition: .5s transform;
+}
+
+.info-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.about-school{
+  border: 1px solid #ccc;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.about-icon > i{
+  font-size: 6rem;
+}
+
+
+/*-------------------- Footer Section --------------------------*/
+footer {
+  background: linear-gradient(to right, #637cc7, #0b1137);
+  color: #fff;
+}
+
+.footer-top {
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+  height: auto;
+}
+
+.footer-contact i{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  padding-top: 7px;
+  border-radius: 2px;
+  text-align: center;
+  background: linear-gradient(to right, #1740ba, #172582);
+}
+
+.footer-sitemap ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-sitemap ul li {
+  margin-bottom: 8px;
+}
+
+.footer-sitemap ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin-bottom: 0;
+}
